@@ -1,4 +1,4 @@
-Hi guys - I am working on a web site that will feature
+Hi guys - I am working on a web site that will feature 
 outdoors and indoors, days and nights, of Central Virginia.
 I have lived in Central Virginia 30 years and have an extensive
 (insider) knowledge of the area.
