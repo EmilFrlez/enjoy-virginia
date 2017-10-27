@@ -1,0 +1,64 @@
+body{
+	
+    background:url('../images/Blue_Ridge_Parkway_58f76bf6.jpg') no-repeat center center fixed;
+    /*background:url('images/sergey-pesterev-228813.jpg');*/
+    /*background:url('images/joshua-gresham-19650.jpg');*/
+    /*background:url('');*/ 	
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	font-family: Lato;
+	color: white;
+	}
+
+html{
+	height: 100%;
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+}
+
+h2{
+	font-weight: 700;
+	font-size: 3em;
+}
+
+h3{
+	font-weight: 700;
+	font-size: 2em;
+}
+
+.navbar-default .navbar-nav > li > a {
+		transition: all 1s ease-out;
+		font-size: 25px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: white;
+	background-color: #91c3d6; 
+}
+
+#content{
+	padding-top: -10%;
+	text-align: center;
+	text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+div.desc {
+    padding: 30px;
+    text-align: center;
+    text-weight:600;
+}
+

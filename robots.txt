@@ -1,0 +1,4 @@
+User-agent: Googlebot
+Disallow: *.pdf
+
+Sitemap: http://enjoy-virginia.com/sitemap.xml

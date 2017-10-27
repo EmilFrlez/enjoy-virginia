@@ -1,0 +1,106 @@
+body{
+	padding-top: 0px;
+}
+
+.jumbotron{
+	color:  #2C3E50;
+	background: #ecf0f1;
+	padding-top: 10px;
+    padding-bottom: 10px;
+	position: relative;
+}
+
+.navbar-inverse{
+	background-color: #2C3E50;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a{
+	color:white;
+}
+
+.navbar-default .navbar-nav > li > a {
+		transition: all 1s ease-out;
+		font-size: 25px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+	color: white;
+	background-color: #91c3d6; 
+}
+
+/* banner overlay */
+
+.image-banner{
+	position: relative;
+}
+
+.image-banner img {
+    display: block;
+    width: 100%;
+}
+
+.banner-description {
+    position: absolute;
+	width: 98%;
+	z-index: 2;
+	text-align: center;
+	bottom: -3px;
+    color: white;
+	background-color: rgba(0,0,0,0.65);
+}
+
+.banner-description-sm {
+    position: absolute;
+	width: 95%;
+	z-index: 2;
+	text-align: center;
+	top: -15px;
+    color: white;
+    font-size: 1.75rem;	
+	background-color: rgba(0,0,0,0.65);
+}
+
+/* buy-banner */
+
+.buy-banner {
+	position: absolute;
+    text-align: center;
+	text-decoration: none;
+	top:14%;
+	right:12%;
+	width: 12rem;
+	height: 12rem;
+	/*transform-origin: 0rem -5rem;*/
+	background: radial-gradient(#bb0826,#FFF);
+	border-radius: 50%;
+	color: white;
+	padding: 20px 20px 20px 20px;
+	transition: all 1s ease-out;
+}
+.buy-banner a {
+    color: white;
+	text-decoration: none;
+}
+
+.thumbnail {
+	overflow: hidden;
+}
+
+.banner-need {
+    position: absolute;
+	font-size: 1.5rem;
+	margin-top: 0px;
+	width: 15%;
+	z-index: 2;
+	text-align: center;
+	top: 3px;
+    left: 3px;
+    color: white;
+	background-color: rgba(87,8,38,0.65);
+    transition: all 0.5s ease-in;
+    transform: translateY(-110%);
+	}
+
+.thumbnail:hover .banner-need {
+	transform: translate(0);
+}
